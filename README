@@ -1,0 +1,81 @@
+Homework 2 for
+the AI course
+in FMI 2017/2018
+
+Npuzzle solver - http://mypuzzle.org/sliding
+
+compilation tested with:
+Cygwingcc (version 5.4.0 (GCC))
+
+to build with makefile with GCC use:
+"make -f makefile"
+
+to run in console
+"./Npuzzle"
+or
+"./Npuzzle N" to not provide N through standart input
+
+Example
+
+"Input:"
+$ ./Npuzzle 15
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 0
+
+"Output:" - the moves needed to sort the board
+0
+
+
+"Input:"
+$ ./Npuzzle 15
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 0
+
+"Output:" - the moves needed to sort the board and the moves
+0
+
+"Input:"
+$ ./Npuzzle 8
+4 0 2
+5 3 6
+8 1 7
+
+"Output:"
+19
+right
+up
+up
+left
+left
+down
+right
+right
+up
+left
+down
+down
+right
+up
+left
+down
+left
+up
+
+"Input:"
+$ ./Npuzzle 15
+1 2 3 4
+5 6 7 8
+0 10 11 12
+9 13 14 15
+
+"Output:"
+4
+up
+left
+left
+left
+
